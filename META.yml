@@ -1,0 +1,23 @@
+---
+abstract: 'do use_ok for modules in search path'
+author:
+  - 'Takatoshi Kitano <kitano.tk@gmail.com>'
+build_requires:
+  Module::Install::AuthorTests: 0
+  Test::More: 0
+distribution_type: module
+generated_by: 'Module::Install version 0.720'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.3.html
+  version: 1.3
+name: Test-LoadAllModules
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  List::MoreUtils: 0
+  Module::Pluggable::Object: 0
+  Test::More: 0
+version: 0.01
