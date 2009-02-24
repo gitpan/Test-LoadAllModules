@@ -3,6 +3,7 @@ abstract: 'do use_ok for modules in search path'
 author:
   - 'Takatoshi Kitano <kitano.tk@gmail.com>'
 build_requires:
+  FindBin::libs: 0
   Module::Install::AuthorTests: 0
   Test::More: 0
 distribution_type: module
@@ -20,4 +21,4 @@ requires:
   List::MoreUtils: 0
   Module::Pluggable::Object: 0
   Test::More: 0
-version: 0.01
+version: 0.011
