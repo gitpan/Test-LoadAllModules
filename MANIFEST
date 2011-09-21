@@ -1,7 +1,6 @@
 .gitignore
 Changes
 inc/File/Spec.pm
-inc/FindBin/libs.pm
 inc/Module/Install.pm
 inc/Module/Install/AuthorTests.pm
 inc/Module/Install/Base.pm

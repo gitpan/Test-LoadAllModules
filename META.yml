@@ -3,12 +3,11 @@ abstract: 'do use_ok for modules in search path'
 author:
   - 'Takatoshi Kitano <kitano.tk@gmail.com>'
 build_requires:
-  File::Spec: 0
-  FindBin::libs: 0
-  Module::Install::AuthorTests: 0
-  Test::More: 0
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.77'
+generated_by: 'Module::Install version 1.00'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,6 +17,7 @@ no_index:
   directory:
     - inc
     - t
+    - xt
 requires:
   Filter::Util::Call: 0
   List::MoreUtils: 0
@@ -25,4 +25,4 @@ requires:
   Test::More: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: 0.021
